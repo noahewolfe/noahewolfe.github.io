@@ -13,3 +13,8 @@
 .subtitle {
  font-size: 48px;
 }
+
+.title-icon {
+  height: 256px;
+  width: 256px;
+}
