@@ -15,6 +15,10 @@
 }
 
 .title-icon {
-  height: 256px;
-  width: 256px;
+  height: 64px;
+  width: 64px;
+  position: relative; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  display: block;
 }
