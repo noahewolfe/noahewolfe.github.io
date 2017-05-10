@@ -17,8 +17,8 @@
 .title-icon {
   height: 64px;
   width: 64px;
-  position: relative; 
-  top: 50%; 
-  transform: translateY(-50%); 
-  display: block;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%);
 }
