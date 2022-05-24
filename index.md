@@ -1,5 +1,6 @@
 ---
 layout: homepage
+filename: index.md
 ---
 
 ## About Me
