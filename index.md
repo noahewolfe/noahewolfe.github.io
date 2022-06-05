@@ -20,7 +20,7 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
 ## Publications
 
 - {% include_relative projects/push-ml/citation.md %}
-{% include_relative projects/push-ml/footer.md %}
+  {% include_relative projects/push-ml/footer.md %}
 
 - **A New Constraint on the Nuclear Equation of State from Statistical Distributions of Compact Remnants of Supernovae**
   <br>
