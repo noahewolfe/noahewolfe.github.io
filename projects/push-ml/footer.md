@@ -1,2 +1,1 @@
-<div class="topictag">core-collapse supernovae</div> <div class="topictag">computational astrophysics</div> <div class="topictag">multi-messenger astrostatistics</div>
 [[ADS](https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract)] [[Code](https://github.com/SAM-collaboration/NS-BH-mass-statistics)]

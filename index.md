@@ -20,32 +20,16 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
 ## Publications
 
 - {% include_relative projects/push-ml/citation.md %}
+  {% include_relative projects/push-ml/tags.md %}
+  {% include_relative projects/push-ml/summary.md %}
   {% include_relative projects/push-ml/footer.md %}
 
-- **A New Constraint on the Nuclear Equation of State from Statistical Distributions of Compact Remnants of Supernovae**
-  <br>
-  Meskhi, M. M., **Wolfe, N.E.**, Dai, Z., Fröhlich, C., Miller, J. M., Wong, R. L., & Vilalta, R.
-  <br>
-  The Astrophysical Journal Letters.
-  <br>
-  <div class="topictag">core-collapse supernovae</div> <div class="topictag">computational astrophysics</div> <div class="topictag">multi-messenger astrostatistics</div>
-  [[ADS](https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract)] [[Code](https://github.com/SAM-collaboration/NS-BH-mass-statistics)]
+- {% include_relative projects/push-v/citation.md %}
+  {% include_relative projects/push-v/tags.md %}
+  {% include_relative projects/push-v/summary.md %}
+  {% include_relative projects/push-v/footer.md %}
   
-
-- **PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V. Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields, and Compact Remnants.**
-  <br>
-  Ghosh, S., **Wolfe, N.**, & Fröhlich, C.
-  <br>
-  The Astrophysical Journal.
-  <br>
-  <div class="topictag">core-collapse supernovae</div> <div class="topictag">computational astrophysics</div>
-  [[ADS](https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract)]
-
-- **Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves and Spectra**
-  <br>
-  Curtis, S., **Wolfe, N.**, Fröhlich, C., Miller, J. M., Wollaeger, R., & Ebinger, K.
-  <br>
-  The Astrophysical Journal.
-  <br>
-  <div class="topictag">core-collapse supernovae</div> <div class="topictag">computational astrophysics</div> <div class="topictag">multi-messenger astrostatistics</div>
-  [[ADS](https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract)] [[Code](https://github.com/sanjanacurtis/push_lc_spectra)]
+- {% include_relative projects/push-lc/citation.md %}
+  {% include_relative projects/push-lc/tags.md %}
+  {% include_relative projects/push-lc/summary.md %}
+  {% include_relative projects/push-lc/footer.md %}
