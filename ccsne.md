@@ -7,4 +7,5 @@ Core-collapse supernovae are the violent deaths of massive stars; when a star ru
 
 Supernovae are some of the most extreme astrophysical phenomena in the universe, involving many different kinds of physics; as such, they are unique physical laboratories. With Professor Carla Fröhlich at North Carolina State University, I studied the observable consequences of input stellar and nuclear physics on core-collapse. 
 
-{% include_relative projects/apjl_test.md %}
+{% include_relative projects/push-ml/citation.md %}
+{% include_relative projects/push-ml/summary.md %}

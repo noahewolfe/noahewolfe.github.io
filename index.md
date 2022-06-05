@@ -26,6 +26,7 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
   The Astrophysical Journal Letters.
   <br>
   [[ADS](https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract)] [[Code](https://github.com/SAM-collaboration/NS-BH-mass-statisticsxs)]
+  <div class="topictag">ccsne</div>
 
 - **PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V. Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields, and Compact Remnants.**
   <br>
