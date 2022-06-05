@@ -449,7 +449,15 @@ footer {
 }
 
 .topictag {
-  border-radius: 10px;
-  background-color: #777;
-  border-color: #333;
+  background-color: #d3d3d3;
+  text-align: center;
+
+  width: max-content;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+
+  //border-style: solid;
+  //border-width: 2.5px;
+  //border-color: #333;
 }

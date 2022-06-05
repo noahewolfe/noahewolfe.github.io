@@ -25,8 +25,7 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
   <br>
   The Astrophysical Journal Letters.
   <br>
-  [[ADS](https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract)] [[Code](https://github.com/SAM-collaboration/NS-BH-mass-statisticsxs)]
-  <div class="topictag">ccsne</div>
+  [[ADS](https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract)] [[Code](https://github.com/SAM-collaboration/NS-BH-mass-statistics)] <div class="topictag">core-collapse supernovae</div> <div class="topictag">computational astrophysics</div> <div class="topictag">multi-messenger astrostatistics</div>
 
 - **PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V. Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields, and Compact Remnants.**
   <br>
@@ -34,7 +33,7 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
   <br>
   The Astrophysical Journal.
   <br>
-  [[ADS](https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract)]
+  [[ADS](https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract)] <div class="topictag">core-collapse supernovae</div> <div class="topictag">computational astrophysics</div>
 
 - **Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves and Spectra**
   <br>
@@ -42,4 +41,4 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
   <br>
   The Astrophysical Journal.
   <br>
-  [[ADS](https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract)] [[Code](https://github.com/sanjanacurtis/push_lc_spectra)]
+  [[ADS](https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract)] [[Code](https://github.com/sanjanacurtis/push_lc_spectra)] <div class="topictag">core-collapse supernovae</div> <div class="topictag">computational astrophysics</div> <div class="topictag">multi-messenger astrostatistics</div>
