@@ -18,20 +18,3 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
 - **Tests of General Relativity:**
 
 ## Publications
-
-- {% include_relative test.md %}
-
-- {% include_relative projects/push-ml/citation.md %}
-  {% include_relative projects/push-ml/tags.md %}
-  {% include_relative projects/push-ml/summary.md %}
-  {% include_relative projects/push-ml/footer.md %}
-
-- {% include_relative projects/push-v/citation.md %}
-  {% include_relative projects/push-v/tags.md %}
-  {% include_relative projects/push-v/summary.md %}
-  {% include_relative projects/push-v/footer.md %}
-  
-- {% include_relative projects/push-lc/citation.md %}
-  {% include_relative projects/push-lc/tags.md %}
-  {% include_relative projects/push-lc/summary.md %}
-  {% include_relative projects/push-lc/footer.md %}

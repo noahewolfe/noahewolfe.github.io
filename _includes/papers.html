@@ -1,0 +1,18 @@
+{% for papers in site.data.papers %}
+    <strong>{{ paper.title }}</strong>
+    <br>
+    {{ paper.authors }} ({{ paper.year}})
+    <br>
+    {{ paper.journal }}
+    <br>
+    {% for tag in paper.tags %}
+        <div class="topictag">{{ tag }}</div>
+    {% endfor %}
+    <br>
+    {% if paper.ads_link %}
+        [<a href="{{ paper.ads_link }}">ADS</a>]
+    {% endif %}
+    {% if paper.code_link %}
+        [<a href="{{ paper.code_link }}">ADS</a>]
+    {% endif %}
+{% endfor %}

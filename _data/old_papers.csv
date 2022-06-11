@@ -1,0 +1,5 @@
+shortname,doi,bibcode,title,year,authors,journal,code_link,ads_link,tags
+push-eos,10.3847/1538-4357/ac4d20,2022ApJ...929...43G,,,,,"https://github.com/sanjanacurtis/push_lc_spectra
+","core-collapse supernovae, computational astrophysics"
+push-ml,,2021arXiv211101815M,,,,,https://github.com/SAM-collaboration/NS-BH-mass-statistics,"core-collapse supernovae, computational astrophysics, multi-messenger astrostatistics"
+push-lc,10.3847/1538-4357/ac0dc5,2021ApJ...921..143C,,,,,https://github.com/sanjanacurtis/push_lc_spectra,"core-collapse supernovae, computational astrophysics"
