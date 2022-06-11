@@ -1,19 +1,23 @@
-{% for paper in site.data.papers %}
-<!-- {% assign paper = paper_hash[1] %} -->
-    <strong>{{ paper.title }}</strong>
-    <br>
-    {{ paper.authors }} ({{ paper.year}})
-    <br>
-    {{ paper.journal }}
-    <br>
-    {% for tag in paper.tags %}
-        <div class="topictag">{{ tag }}</div>
+<ul>
+    {% for paper in site.data.papers %}
+        <li>
+            <!-- {% assign paper = paper_hash[1] %} -->
+            <strong>{{ paper.title }}</strong>
+            <br>
+            {{ paper.authors }} ({{ paper.year}})
+            <br>
+            {{ paper.journal }}
+            <br>
+            <!--{% for tag in paper.tags %}
+                <div class="topictag">{{ tag }}</div>
+            {% endfor %}
+            <br>-->
+            <!--{% if paper.ads_link %}
+                [<a href="{{ paper.ads_link }}">ADS</a>]
+            {% endif %}
+            {% if paper.code_link %}
+                [<a href="{{ paper.code_link }}">ADS</a>]
+            {% endif %}-->
+        </li>
     {% endfor %}
-    <br>
-    {% if paper.ads_link %}
-        [<a href="{{ paper.ads_link }}">ADS</a>]
-    {% endif %}
-    {% if paper.code_link %}
-        [<a href="{{ paper.code_link }}">ADS</a>]
-    {% endif %}
-{% endfor %}
+</ul>
