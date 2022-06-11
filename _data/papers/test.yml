@@ -1,0 +1,11 @@
+shortname: test
+title: test_paper
+doi: my_cool_dpo
+bibcode: my_bib_code
+year: 1999
+authors: "Noah"
+journal: "Cool guy journal"
+code_link: "https://github.com/sanjanacurtis/push_lc_spectra"
+ads_link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract"
+tags: 
+  - computational astrophysics
