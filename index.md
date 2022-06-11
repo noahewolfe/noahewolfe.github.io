@@ -19,6 +19,8 @@ under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/).
 
 ## Publications
 
+- {% include_relative test.md %}
+
 - {% include_relative projects/push-ml/citation.md %}
   {% include_relative projects/push-ml/tags.md %}
   {% include_relative projects/push-ml/summary.md %}
