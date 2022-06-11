@@ -1,5 +1,5 @@
-{% for paper_hash in site.data.papers %}
-{% assign paper = paper_hash[1] %}
+{% for paper in site.data.papers %}
+<!-- {% assign paper = paper_hash[1] %} -->
     <strong>{{ paper.title }}</strong>
     <br>
     {{ paper.authors }} ({{ paper.year}})
