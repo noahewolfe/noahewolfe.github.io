@@ -1,14 +1,16 @@
-- shortname: push-eos
-  title: "Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves and Spectra"
-  doi: 10.3847/1538-4357/ac4d20
+- ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract
+  authors: "Ghosh, S., Wolfe, N., Fr\xF6hlich, C."
+  authors_html: "Ghosh, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C."
   bibcode: 2022ApJ...929...43G
-  year: 2021
-  authors: Curtis, S., Wolfe, N., Fröhlich, C., Miller, J. M., Wollaeger, R., & Ebinger, K.
-  authors_html: Curtis, S., <br>Wolfe, N.</br>, Fröhlich, C., Miller, J. M., Wollaeger, R., & Ebinger, K.
+  code_link:
+  doi: 10.3847/1538-4357/ac4d20
   journal: The Astrophysical Journal
-  journal_html: 
-  code_link: "https://github.com/sanjanacurtis/push_lc_spectra"
-  ads_link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract"
-  tags: 
-    - core-collapse supernovae
-    - computational astrophysics
+  journal_html: The Astrophysical Journal
+  shortname: push-eos
+  tags:
+  - core-collapse supernovae
+  - computational astrophysics
+  title: PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V.
+    Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields,
+    and Compact Remnants
+  year: '2022'
