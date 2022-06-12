@@ -24,10 +24,10 @@
                 <br>
             {% endif %}
             {% if paper.ads_link && paper.ads_link != "" %}
-                [<a href="{{ paper.ads_link }}">ADS</a>]
+                [<a href="{{ paper.ads_link }}" target="_blank">ADS</a>]
             {% endif %}
             {% if paper.code_link && paper.code_link != "" %}
-                [<a href="{{ paper.code_link }}">Code</a>]
+                [<a href="{{ paper.code_link }}" target="_blank">Code</a>]
             {% endif %}
         </li>
     {% endfor %}
