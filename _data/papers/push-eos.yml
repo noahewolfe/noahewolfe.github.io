@@ -1,12 +1,12 @@
-- shortname: "push-eos"
+- shortname: push-eos
   title: "Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves and Spectra"
-  doi: "10.3847/1538-4357/ac4d20"
-  bibcode: "2022ApJ...929...43G"
-  year: "2021"
-  authors: "Curtis, S., Wolfe, N., Fröhlich, C., Miller, J. M., Wollaeger, R., & Ebinger, K."
-  journal: "The Astrophysical Journal"
+  doi: 10.3847/1538-4357/ac4d20
+  bibcode: 2022ApJ...929...43G
+  year: 2021
+  authors: Curtis, S., Wolfe, N., Fröhlich, C., Miller, J. M., Wollaeger, R., & Ebinger, K.
+  journal: The Astrophysical Journal
   code_link: "https://github.com/sanjanacurtis/push_lc_spectra"
   ads_link: "https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract"
   tags: 
-    - "core-collapse supernovae"
-    - "computational astrophysics"
+    - core-collapse supernovae
+    - computational astrophysics

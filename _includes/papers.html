@@ -3,26 +3,26 @@
     {% assign papers = papers_hash[1] %}
         {% for paper in papers %}
             <li>
-                <p>once per loop</p>
-                {{ paper.authors }}
-                {{ paper }}
-                <!-- {% assign paper = paper_hash[1] %} -->
-                <!-- <strong>{{ paper.title }}</strong> 
+                <strong>{{ paper.title }}</strong> 
                 <br>
-                {{ paper.authors }} ({{ paper.year}})
+                {{ paper.authors }} ({{ paper.year }})
                 <br>
                 {{ paper.journal }}
-                <br> -->
-                <!--{% for tag in paper.tags %}
+                <br>
+                {% for tag in paper.tags %}
                     <div class="topictag">{{ tag }}</div>
                 {% endfor %}
-                <br>-->
-                <!--{% if paper.ads_link %}
+                <br>
+                {% if paper.summary %}
+                    <p>{{ paper.summary }}</p>
+                {% endif %}
+                <br>
+                {% if paper.ads_link %}
                     [<a href="{{ paper.ads_link }}">ADS</a>]
                 {% endif %}
                 {% if paper.code_link %}
                     [<a href="{{ paper.code_link }}">ADS</a>]
-                {% endif %}-->
+                {% endif %}
             </li>
         {% endfor %}
     {% endfor %}
