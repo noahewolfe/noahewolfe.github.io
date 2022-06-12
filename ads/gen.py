@@ -4,6 +4,16 @@ import ads #ads.sandbox as ads
 
 PAPER_DIR = os.path.abspath("../_data/papers")
 
+def abbreviate_name(name):
+    splitchar = "." if name.count(".") >= 2 else " "
+    abb_name = " ".join([
+        f"{n.strip()[0]}."
+        for n in name.strip().split(splitchar)
+        if n.strip() != ""
+    ])
+
+    return abb_name
+
 class Paper:
     def __init__(self, path=None, shortname=None, title=None, doi=None, bibcode=None, 
                  year=None, authors=None, journal=None, code_link=None, tags=[], **kwargs):
@@ -69,24 +79,11 @@ class Paper:
             for fullname in self._authors:
                 lname, fname = fullname.split(",")
                 lastnames.append(lname.strip())
-                firstnames.append(
-                    " ".join([
-                        f"{n.strip()[0]}."
-                        for n in fname.strip().split(".")
-                        if n.strip() != ""
-                    ])
-                )
+                firstnames.append(abbreviate_name(fname))
         elif type(self._authors) == str:
             authors = self._authors.strip()
-            lastnames = authors.split(", ")[0::2]
-            firstnames = [
-                " ".join([ 
-                    f"{n.strip()[0]}." 
-                    for n in first.strip().split(".")
-                    if n.strip() != ""
-                ])
-                for first in authors.split(", ")[1::2]
-            ]
+            lastnames = [ lname.strip() for lname in authors.split(",")[0::2] ]
+            firstnames = [ abbreviate_name(fname) for fname in authors.split(",")[1::2] ]
         else:
             raise TypeError(f"Type {type(self._authors)} not supported for self._authors!")
 

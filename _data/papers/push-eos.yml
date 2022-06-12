@@ -1,16 +1,16 @@
-- ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract
-  authors: "Ghosh, S., Wolfe, N., Fr\xF6hlich, C."
-  authors_html: "Ghosh, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C."
-  bibcode: 2022ApJ...929...43G
-  code_link:
-  doi: 10.3847/1538-4357/ac4d20
-  journal: The Astrophysical Journal
-  journal_html: The Astrophysical Journal
-  shortname: push-eos
-  tags:
-  - core-collapse supernovae
-  - computational astrophysics
+- shortname: push-eos
   title: PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V.
     Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields,
     and Compact Remnants
+  doi: 10.3847/1538-4357/ac4d20
+  bibcode: 2022ApJ...929...43G
   year: '2022'
+  authors: "Ghosh, S., Wolfe, N., Fr\xF6hlich, C."
+  authors_html: "Ghosh, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C."
+  journal: The Astrophysical Journal
+  journal_html: The Astrophysical Journal
+  ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract
+  code_link: core-collapse supernovae, numerical simulations
+  tags:
+  - core-collapse supernovae
+  - numerical simulations

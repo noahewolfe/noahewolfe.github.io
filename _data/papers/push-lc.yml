@@ -1,18 +1,18 @@
-- ads_link: https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract
-  authors: "Curtis, S., Wolfe, N., Fr\xF6hlich, C., Miller, J., Wollaeger, R., Ebinger,\
-    \ K."
-  authors_html: "Curtis, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C., Miller, J., Wollaeger,\
-    \ R., Ebinger, K."
-  bibcode: 2021ApJ...921..143C
-  code_link: https://github.com/sanjanacurtis/push_lc_spectra
+- shortname: push-lc
+  title: 'Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves
+    and Spectra'
   doi: 10.3847/1538-4357/ac0dc5
+  bibcode: 2021ApJ...921..143C
+  year: '2021'
+  authors: "Curtis, S., Wolfe, N., Fr\xF6hlich, C., Miller, J. M., Wollaeger, R.,\
+    \ Ebinger, K."
+  authors_html: "Curtis, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C., Miller, J. M., Wollaeger,\
+    \ R., Ebinger, K."
   journal: The Astrophysical Journal
   journal_html: The Astrophysical Journal
-  shortname: push-lc
+  ads_link: https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract
+  code_link: https://github.com/sanjanacurtis/push_lc_spectra
   tags:
   - core-collapse supernovae
   - numerical simulations
   - active subspace analysis
-  title: 'Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves
-    and Spectra'
-  year: '2021'

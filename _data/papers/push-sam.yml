@@ -1,18 +1,18 @@
-- ads_link: https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract
-  authors: Meskhi, M., Wolfe, N., Dai, Z., Frohlich, C., Miller, J., Wong, R. W.,
-    Vilalta, R.
-  authors_html: Meskhi, M., <b>Wolfe, N.</b>, Dai, Z., Frohlich, C., Miller, J., Wong,
-    R. W., Vilalta, R.
-  bibcode: 2021arXiv211101815M
-  code_link: https://github.com/SAM-collaboration/NS-BH-mass-statistics
+- shortname: push-ml
+  title: A New Constraint on the Nuclear Equation of State from Statistical Distributions
+    of Compact Remnants of Supernovae
   doi: null
+  bibcode: 2021arXiv211101815M
+  year: '2021'
+  authors: Meskhi, M. M., Wolfe, N. E., Dai, Z., Frohlich, C., Miller, J. M., Wong,
+    R. W., Vilalta, R.
+  authors_html: Meskhi, M. M., <b>Wolfe, N. E.</b>, Dai, Z., Frohlich, C., Miller,
+    J. M., Wong, R. W., Vilalta, R.
   journal: arXiv e-prints
   journal_html: arXiv e-prints
-  shortname: push-sam
+  ads_link: https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract
+  code_link: https://github.com/SAM-collaboration/NS-BH-mass-statistics
   tags:
   - core-collapse supernovae
   - numerical simulations
   - nuclear equation of state
-  title: A New Constraint on the Nuclear Equation of State from Statistical Distributions
-    of Compact Remnants of Supernovae
-  year: '2021'
