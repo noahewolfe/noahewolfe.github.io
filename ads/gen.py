@@ -4,6 +4,8 @@ import ads #ads.sandbox as ads
 
 PAPER_DIR = os.path.abspath("../_data/papers")
 
+PAPERS_PATH = os.path.abspath("../_data/papers.yml")
+
 def abbreviate_name(name):
     splitchar = "." if name.count(".") >= 2 else " "
     abb_name = " ".join([
@@ -68,10 +70,6 @@ class Paper:
         ).items()
 
     @property
-    def _yamlpath(self):
-        return os.path.join(PAPER_DIR, f"{self.shortname}.yml")
-
-    @property
     def authors(self):
         if type(self._authors) == list:
             lastnames = []
@@ -98,11 +96,7 @@ class Paper:
             return f"https://ui.adsabs.harvard.edu/abs/{self.bibcode}/abstract"
         else:
             return None
-
-
-
-        shortname: push-eos
-  
+      
     @property
     def journal_html(self):
         if "Letter" in self.journal:
@@ -152,15 +146,15 @@ class Paper:
 
         self._authors = authors if authors is not None else self._authors
 
-    def dump(self):
-        with open(self._yamlpath, "w") as yamlfile:
-            yaml.dump([dict(self)], yamlfile, sort_keys=False)
-
 # load in existing paper records
-my_papers = [ 
-    Paper(path=os.path.join(PAPER_DIR, p)) 
-    for p in os.listdir(PAPER_DIR) 
-]
+if os.path.isfile(PAPERS_PATH):
+    with open(PAPERS_PATH, "r") as papers_file:
+        my_papers = [
+            Paper(**paper_dict) 
+            for paper_dict in yaml.load(papers_file, Loader=yaml.CLoader)
+        ]
+else:
+    my_papers = []
 
 # grab records from ADS, for cross-checking or adding new records
 with open("./orcid.txt", "r") as f: orcid = f.read()
@@ -211,6 +205,10 @@ for paper in my_papers:
 
     print("\n")
    
-# dump the paper records to .yml files
-for paper in my_papers:
-    paper.dump()
+# dump the paper records to a .yml file
+with open(PAPERS_PATH, "w") as papers_file:
+    for paper in my_papers:
+        papers_file.write(
+            yaml.dump([dict(paper)], sort_keys=False)
+        )
+        papers_file.write("\n")
