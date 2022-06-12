@@ -2,8 +2,6 @@ import os
 import yaml
 import ads #ads.sandbox as ads
 
-PAPER_DIR = os.path.abspath("../_data/papers")
-
 PAPERS_PATH = os.path.abspath("../_data/papers.yml")
 
 def abbreviate_name(name):
