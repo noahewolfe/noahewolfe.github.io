@@ -3,13 +3,14 @@
     {% assign papers = papers_hash[1] %}
         {% for paper in papers %}
             <li>
+                {{ paper }}
                 <!-- {% assign paper = paper_hash[1] %} -->
-                <strong>{{ paper.title }}</strong>
+                <!-- <strong>{{ paper.title }}</strong> 
                 <br>
                 {{ paper.authors }} ({{ paper.year}})
                 <br>
                 {{ paper.journal }}
-                <br>
+                <br> -->
                 <!--{% for tag in paper.tags %}
                     <div class="topictag">{{ tag }}</div>
                 {% endfor %}
