@@ -17,21 +17,8 @@ def abbreviate_name(name):
     return abb_name
 
 class Paper:
-    def __init__(self, path=None, shortname=None, title=None, doi=None, bibcode=None, 
+    def __init__(self, shortname=None, title=None, doi=None, bibcode=None, 
                  year=None, authors=None, journal=None, code_link=None, tags=[], **kwargs):
-
-        if path is not None:
-            with open(path, "r") as loadfile:
-                loaddict = yaml.load(loadfile, Loader=yaml.CLoader)[0]
-                shortname = loaddict.get("shortname", None)
-                title = loaddict.get("title", None)
-                doi = loaddict.get("doi", None)
-                bibcode = loaddict.get("bibcode", None)
-                year = loaddict.get("year", None)
-                authors = loaddict.get("authors", None)
-                journal = loaddict.get("journal", None)
-                code_link = loaddict.get("code_link", None)
-                tags = loaddict.get("tags", [])
 
         if shortname is None:
             raise ValueError(f"shortname can't be None for {title}!")
@@ -46,7 +33,7 @@ class Paper:
         self.title = title
         self.doi = doi
         self.bibcode = bibcode
-        self.year = year
+        self.year = int(year)
         self.journal = journal
         self.code_link = code_link
         self.tags = tags
@@ -139,7 +126,7 @@ class Paper:
         self.title = title if title is not None else self.title
         self.doi = doi if doi is not None else self.doi
         self.bibcode = bibcode if bibcode is not None else self.bibcode
-        self.year = year if year is not None else self.year
+        self.year = int(year) if year is not None else self.year
         self.journal = journal if journal is not None else self.journal
         self.code_link = code_link if code_link is not None else self.code_link
         self.tags = tags if tags is not None else self.tags
@@ -189,8 +176,10 @@ for ads_paper in ads_papers:
 # prompt the user for a link to code, tags for each paper if they don't exist
 for paper in my_papers:
 
-    print(f"{paper.title}")
-    print("".join(["=" for i in range(len(paper.title))]))
+    pretty_input_display = paper.code_link == None or len(paper.tags) == 0
+    if pretty_input_display:
+        print(f"{paper.title}")
+        print("".join(["=" for i in range(len(paper.title))]))
 
     if paper.code_link == None:
         code_link = input(f"Code link: ").strip()
@@ -203,8 +192,12 @@ for paper in my_papers:
         if rawtags != "":
             paper.tags = [ t.strip() for t in rawtags.split(",") ]
 
-    print("\n")
+    if pretty_input_display:
+        print("\n")
    
+# sort papers by year (descending) and by name (alphabetical)
+my_papers.sort(key=lambda paper: (-int(paper.year), paper.authors))
+
 # dump the paper records to a .yml file
 with open(PAPERS_PATH, "w") as papers_file:
     for paper in my_papers:
