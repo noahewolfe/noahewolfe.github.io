@@ -1,0 +1,55 @@
+- shortname: push-eos
+  title: PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V.
+    Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields,
+    and Compact Remnants
+  doi: 10.3847/1538-4357/ac4d20
+  bibcode: 2022ApJ...929...43G
+  year: 2022
+  authors: "Ghosh, S., Wolfe, N., Fr\xF6hlich, C."
+  authors_html: "Ghosh, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C."
+  journal: The Astrophysical Journal
+  journal_html: The Astrophysical Journal
+  ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract
+  code_link: null
+  tags:
+  - core-collapse supernovae
+  - numerical simulations
+
+- shortname: push-lc
+  title: 'Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves
+    and Spectra'
+  doi: 10.3847/1538-4357/ac0dc5
+  bibcode: 2021ApJ...921..143C
+  year: 2021
+  authors: "Curtis, S., Wolfe, N., Fr\xF6hlich, C., Miller, J. M., Wollaeger, R.,\
+    \ Ebinger, K."
+  authors_html: "Curtis, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C., Miller, J. M., Wollaeger,\
+    \ R., Ebinger, K."
+  journal: The Astrophysical Journal
+  journal_html: The Astrophysical Journal
+  ads_link: https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract
+  code_link: https://github.com/sanjanacurtis/push_lc_spectra
+  tags:
+  - core-collapse supernovae
+  - numerical simulations
+  - active subspace analysis
+
+- shortname: push-sam
+  title: A New Constraint on the Nuclear Equation of State from Statistical Distributions
+    of Compact Remnants of Supernovae
+  doi: null
+  bibcode: 2021arXiv211101815M
+  year: 2021
+  authors: Meskhi, M. M., Wolfe, N. E., Dai, Z., Frohlich, C., Miller, J. M., Wong,
+    R. W., Vilalta, R.
+  authors_html: Meskhi, M. M., <b>Wolfe, N. E.</b>, Dai, Z., Frohlich, C., Miller,
+    J. M., Wong, R. W., Vilalta, R.
+  journal: arXiv e-prints
+  journal_html: arXiv e-prints
+  ads_link: https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract
+  code_link: https://github.com/SAM-collaboration/NS-BH-mass-statistics
+  tags:
+  - core-collapse supernovae
+  - numerical simulations
+  - nuclear equation of state
+

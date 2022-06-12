@@ -1,0 +1,1 @@
+[[ADS](https://ui.adsabs.harvard.edu/abs/2021ApJ...921..143C/abstract)] [[Code](https://github.com/sanjanacurtis/push_lc_spectra)]

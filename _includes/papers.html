@@ -1,0 +1,34 @@
+<ul>
+    {% for paper in site.data.papers %}
+        <li>
+            <strong>{{ paper.title }}</strong> 
+            <br>
+            {% if paper.authors_html && paper.authors_html != "" %}
+                {{ paper.authors_html }} ({{ paper.year }})
+            {% else %}
+                {{ paper.authors }} ({{ paper.year }})
+            {% endif %}
+            <br>
+            {% if paper.journal_html && paper.journal_html != "" %}
+                {{ paper.journal_html }}
+            {% else %}
+                {{ paper.journal }}
+            {% endif %}
+            <br>
+            {% for tag in paper.tags %}
+                <div class="topictag">{{ tag }}</div>
+            {% endfor %}
+            <br>
+            {% if paper.summary && paper.summary != "" %}
+                <p>{{ paper.summary }}</p>
+                <br>
+            {% endif %}
+            {% if paper.ads_link && paper.ads_link != "" %}
+                [<a href="{{ paper.ads_link }}" target="_blank">ADS</a>]
+            {% endif %}
+            {% if paper.code_link && paper.code_link != "" %}
+                [<a href="{{ paper.code_link }}" target="_blank">Code</a>]
+            {% endif %}
+        </li>
+    {% endfor %}
+</ul>
