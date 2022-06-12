@@ -5,9 +5,17 @@
             <li>
                 <strong>{{ paper.title }}</strong> 
                 <br>
-                {{ paper.authors }} ({{ paper.year }})
+                {% if paper.authors_html && paper.authors_html != "" %}
+                    {{ paper.authors_html }} ({{ paper.year }})
+                {% else %}
+                    {{ paper.authors }} ({{ paper.year }})
+                {% endif %}
                 <br>
-                {{ paper.journal }}
+                {% if paper.journal_html && paper.journal_html != "" %}
+                    {{ paper.journal_html }}
+                {% else %}
+                    {{ paper.journal }}
+                {% endif %}
                 <br>
                 {% for tag in paper.tags %}
                     <div class="topictag">{{ tag }}</div>
