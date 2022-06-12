@@ -157,7 +157,7 @@ class Paper:
 
     def dump(self):
         with open(self._yamlpath, "w") as yamlfile:
-            yaml.dump([dict(self)], yamlfile)
+            yaml.dump([dict(self)], yamlfile, sort_keys=False)
 
 # load in existing paper records
 my_papers = [ 
