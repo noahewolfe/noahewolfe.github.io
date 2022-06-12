@@ -13,15 +13,15 @@
                     <div class="topictag">{{ tag }}</div>
                 {% endfor %}
                 <br>
-                {% if paper.summary %}
+                {% if paper.summary && paper.summary != "" %}
                     <p>{{ paper.summary }}</p>
+                    <br>
                 {% endif %}
-                <br>
-                {% if paper.ads_link %}
+                {% if paper.ads_link && paper.ads_link != "" %}
                     [<a href="{{ paper.ads_link }}">ADS</a>]
                 {% endif %}
-                {% if paper.code_link %}
-                    [<a href="{{ paper.code_link }}">ADS</a>]
+                {% if paper.code_link && paper.code_link != "" %}
+                    [<a href="{{ paper.code_link }}">Code</a>]
                 {% endif %}
             </li>
         {% endfor %}
