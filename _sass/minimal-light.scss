@@ -461,3 +461,8 @@ footer {
   display: inline;
 }
 
+@media (prefers-color-scheme: dark) {
+    topictag {
+        background-color: #495057;
+    }
+}

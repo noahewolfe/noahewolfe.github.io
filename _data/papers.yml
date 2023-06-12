@@ -1,3 +1,19 @@
+- shortname: tgr-hybrid-sampling
+  title: Accelerating tests of general relativity with gravitational-wave signals
+    using hybrid sampling
+  doi: 10.1103/PhysRevD.107.104056
+  bibcode: 2023PhRvD.107j4056W
+  year: 2023
+  authors: Wolfe, N. E., Talbot, C., Golomb, J.
+  authors_html: <b>Wolfe, N. E.</b>, Talbot, C., Golomb, J.
+  journal: Physical Review D
+  journal_html: Physical Review D
+  ads_link: https://ui.adsabs.harvard.edu/abs/2023PhRvD.107j4056W/abstract
+  code_link: https://github.com/noahewolfe/tgr-hybrid-sampling
+  tags:
+  - tests of general relativity
+  - astrostatistics
+
 - shortname: push-eos
   title: PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V.
     Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields,
@@ -14,6 +30,25 @@
   tags:
   - core-collapse supernovae
   - numerical simulations
+
+- shortname: push-sam
+  title: A New Constraint on the Nuclear Equation of State from Statistical Distributions
+    of Compact Remnants of Supernovae
+  doi: 10.3847/2041-8213/ac7054
+  bibcode: 2022ApJ...932L...3M
+  year: 2022
+  authors: "Meskhi, M. M., Wolfe, N. E., Dai, Z., Fr\xF6hlich, C., Miller, J. M.,\
+    \ Wong, R. W., Vilalta, R."
+  authors_html: "Meskhi, M. M., <b>Wolfe, N. E.</b>, Dai, Z., Fr\xF6hlich, C., Miller,\
+    \ J. M., Wong, R. W., Vilalta, R."
+  journal: The Astrophysical Journal
+  journal_html: The Astrophysical Journal
+  ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...932L...3M/abstract
+  code_link: https://github.com/SAM-collaboration/NS-BH-mass-statistics
+  tags:
+  - core-collapse supernovae
+  - numerical simulations
+  - nuclear equation of state
 
 - shortname: push-lc
   title: 'Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves
@@ -33,23 +68,4 @@
   - core-collapse supernovae
   - numerical simulations
   - active subspace analysis
-
-- shortname: push-sam
-  title: A New Constraint on the Nuclear Equation of State from Statistical Distributions
-    of Compact Remnants of Supernovae
-  doi: null
-  bibcode: 2021arXiv211101815M
-  year: 2021
-  authors: Meskhi, M. M., Wolfe, N. E., Dai, Z., Frohlich, C., Miller, J. M., Wong,
-    R. W., Vilalta, R.
-  authors_html: Meskhi, M. M., <b>Wolfe, N. E.</b>, Dai, Z., Frohlich, C., Miller,
-    J. M., Wong, R. W., Vilalta, R.
-  journal: arXiv e-prints
-  journal_html: arXiv e-prints
-  ads_link: https://ui.adsabs.harvard.edu/abs/2021arXiv211101815M/abstract
-  code_link: https://github.com/SAM-collaboration/NS-BH-mass-statistics
-  tags:
-  - core-collapse supernovae
-  - numerical simulations
-  - nuclear equation of state
 
