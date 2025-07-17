@@ -1,3 +1,33 @@
+- shortname: ssm
+  title: Too small to fail: characterizing sub-solar mass black hole mergers with gravitational waves
+  doi: 10.1088/1475-7516/2023/11/039
+  bibcode: 2023JCAP...11..039W
+  year: 2023
+  authors: Wolfe, N. E., Vitale, S., Talbot, C.
+  authors_html: "<b>Wolfe, N. E.</b>, Vitale, S., Talbot, C."
+  journal: Journal of Cosmology and Astroparticle Physics
+  journal_html: Journal of Cosmology and Astroparticle Physics
+  ads_link: https://ui.adsabs.harvard.edu/abs/2023JCAP...11..039W/abstract
+  code_link: null
+  tags:
+  - dark matter
+  - astrostatistics
+
+- shortname: push-gw
+  title: Gravitational wave eigenfrequencies from neutrino-driven core-collapse supernovae
+  doi: 10.3847/1538-4357/ace693
+  bibcode: 2023ApJ...954..161W
+  year: 2023
+  authors: "Wolfe, N. E., Fr\xF6hlich, C., Miller, J. M., Torres-Forn&#233;, A., Cerd&#225;-Dur&#225;n, P."
+  authors_html: "<b>Wolfe, N. E.</b>, Fr\xF6hlich, C., Miller, J. M., Torres-Forn&#233;, A., Cerd&#225;-Dur&#225;n, P."
+  journal: The Astrophysical Journal
+  journal_html: The Astrophysical Journal
+  ads_link: https://ui.adsabs.harvard.edu/abs/2023ApJ...954..161W/abstract
+  code_link: null
+  tags:
+  - core-collapse supernovae
+  - numerical simulations
+
 - shortname: tgr-hybrid-sampling
   title: Accelerating tests of general relativity with gravitational-wave signals
     using hybrid sampling
