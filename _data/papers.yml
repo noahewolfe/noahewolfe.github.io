@@ -41,8 +41,8 @@
     \ Wong, R. W., Vilalta, R."
   authors_html: "Meskhi, M. M., <b>Wolfe, N. E.</b>, Dai, Z., Fr\xF6hlich, C., Miller,\
     \ J. M., Wong, R. W., Vilalta, R."
-  journal: The Astrophysical Journal
-  journal_html: The Astrophysical Journal
+  journal: The Astrophysical Journal Letters
+  journal_html: <u>The Astrophysical Journal Letters</u>
   ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...932L...3M/abstract
   code_link: https://github.com/SAM-collaboration/NS-BH-mass-statistics
   tags:
@@ -68,4 +68,3 @@
   - core-collapse supernovae
   - numerical simulations
   - active subspace analysis
-
