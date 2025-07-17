@@ -1,5 +1,5 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem "jekyll", "~> 3.8.5"
+source 'https://rubygems.org'
 
-gem "webrick", "~> 1.8"
+gemspec
