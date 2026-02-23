@@ -13,6 +13,6 @@ I earned Bachelors of Science degrees in Physics and Mathematics
 at North Carolina State University, where I studied core-collapse supernovae 
 under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/){:target="_blank"}.
 
-**If you'd like to learn more about me, feel free to read my [CV](/assets/cv.pdf){:target="_blank"}** (Last updated 25 July 2022)
+**If you'd like to learn more about me, feel free to read my [CV](/assets/cv.pdf){:target="_blank"}** (Last updated 22 February 2026)
 
 ## Publications
