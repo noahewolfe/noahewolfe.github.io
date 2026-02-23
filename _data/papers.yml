@@ -1,3 +1,18 @@
+- shortname: far-cuts
+  title: "Studying the graviational-wave population without looking that FAR out"
+  doi: 10.48550/arXiv.2510.06220
+  bibcode: 2025arXiv251006220W
+  year: 2025
+  authors: Wolfe, N. E., Mould, M., Heinzel, J., Vitale, S.
+  authors_html: "<b>Wolfe, N. E.</b>, Mould, M., Heinzel, J., Vitale, S."
+  journal: null
+  journal_html: null
+  ads_link: https://ui.adsabs.harvard.edu/abs/2025arXiv251006220W/abstract
+  code_link: null
+  tags:
+  - black hole populations
+  - astrostatistics
+
 - shortname: ssm
   title: "Too small to fail: characterizing sub-solar mass black hole mergers with gravitational waves"
   doi: 10.1088/1475-7516/2023/11/039
