@@ -1,3 +1,17 @@
+- shortname: ppisn-inj 
+  title: "Measurement prospects for the pair-instability mass cutoff with gravitational waves"
+  doi: 10.48550/arXiv.2602.11282
+  bibcode: 2026arXiv260211282M
+  year: 2025
+  authors: Mould, M., Heinzel, J., Alvarez-Lopez, S., Plunkett, C., Wolfe, N. E., Vitale, S.
+  authors_html: "Mould, M., Heinzel, J., &#193;lvarez-L&#243;pez, S., Plunkett, C., <b>Wolfe, N. E.<\b>, Vitale, S."
+  journal: null
+  journal_html: null
+  ads_link: https://ui.adsabs.harvard.edu/abs/2026arXiv260211282M/abstract
+  code_link: null
+  tags:
+  - black hole populations
+
 - shortname: far-cuts
   title: "Studying the graviational-wave population without looking that FAR out"
   doi: 10.48550/arXiv.2510.06220
