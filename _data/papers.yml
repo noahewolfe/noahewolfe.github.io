@@ -1,3 +1,17 @@
+- shortname: neural-updates
+  title: Neural Bayesian updates to populations with growing gravitational-wave catalogs
+  doi: 10.48550/arXiv.2602.20277
+  bibcode: 2026arXiv260220277W
+  year: 2026
+  authors: Wolfe, N. E., Mould, M., Veitch, J., Vitale, S.
+  authors_html: "<b>Wolfe, N. E.</b>, Mould, M., Veitch, J., Vitale, S."
+  journal: Submitted to Physical Review D
+  journal_html: null
+  ads_link: https://ui.adsabs.harvard.edu/abs/2026arXiv260220277W/abstract
+  code_link: null
+  tags:
+  - black hole populations
+
 - shortname: ppisn-inj 
   title: "Measurement prospects for the pair-instability mass cutoff with gravitational waves"
   doi: 10.48550/arXiv.2602.11282
@@ -8,6 +22,20 @@
   journal: Submitted to Physical Review D
   journal_html: null
   ads_link: https://ui.adsabs.harvard.edu/abs/2026arXiv260211282M/abstract
+  code_link: null
+  tags:
+  - black hole populations
+
+- shortname: svi
+  title: Rapid inference and comparison of gravitational-wave population models with neural variational posteriors
+  doi: 10.1103/xk1z-fxnm
+  bibcode: 2025PhRvD.111l3049M
+  year: 2025
+  authors: Mould, M., Wolfe, N. E., Vitale, S.
+  authors_html: "Mould, M., <b>Wolfe, N. E.</b>, Vitale, S."
+  journal: Physical Review D
+  journal_html: null
+  ads_link: https://ui.adsabs.harvard.edu/abs/2025PhRvD.111l3049M/abstract
   code_link: null
   tags:
   - black hole populations
