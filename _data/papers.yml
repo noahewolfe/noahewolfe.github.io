@@ -1,3 +1,18 @@
+- shortname: spin-peak
+  title: No model-independent evidence for a peak in binary black hole spin (mis)alignments
+  doi: 10.48550/arXiv.2605.05300
+  bibcode: 2026arXiv260505300W
+  year: 2026
+  authors: Wolfe, N. E., Vitale, S., Zevin, M.
+  authors_html: "<b>Wolfe, N. E.</b>, Vitale, S., Zevin, M."
+  journal: Submitted to The Astrophysical Journal Letters
+  journal_html: null
+  ads_link: https://ui.adsabs.harvard.edu/abs/2026arXiv260505300W/abstract
+  code_link: null
+  tags:
+  - black hole populations
+  - astrostatistics
+
 - shortname: neural-updates
   title: Neural Bayesian updates to populations with growing gravitational-wave catalogs
   doi: 10.48550/arXiv.2602.20277
@@ -54,6 +69,20 @@
   tags:
   - black hole populations
   - astrostatistics
+
+- shortname: pbh-star
+  title: Gravitational wave signals from primordial black holes orbiting solar-type stars
+  doi: 10.1103/294z-nfj4
+  bibcode: 2025PhRvD.112f3063D
+  year: 2025
+  authors: De Lorenci, V. A., Kaiser, D. I., Peter, P., Ruiz, L. S., Wolfe, N. E.
+  authors_html: "De Lorenci, V. A., Kaiser, D. I., Peter, P., Ruiz, L. S., <b>Wolfe, N. E.</b>"
+  journal: Physical Review D
+  journal_html: Physical Review D
+  ads_link: https://ui.adsabs.harvard.edu/abs/2025PhRvD.112f3063D/abstract
+  code_link: null
+  tags:
+  - dark matter
 
 - shortname: ssm
   title: "Too small to fail: characterizing sub-solar mass black hole mergers with gravitational waves"
@@ -125,9 +154,9 @@
   bibcode: 2022ApJ...932L...3M
   year: 2022
   authors: "Meskhi, M. M., Wolfe, N. E., Dai, Z., Fr\xF6hlich, C., Miller, J. M.,\
-    \ Wong, R. W., Vilalta, R."
+    \ Wong, R. K. W., Vilalta, R."
   authors_html: "Meskhi, M. M., <b>Wolfe, N. E.</b>, Dai, Z., Fr\xF6hlich, C., Miller,\
-    \ J. M., Wong, R. W., Vilalta, R."
+    \ J. M., Wong, R. K. W., Vilalta, R."
   journal: The Astrophysical Journal Letters
   journal_html: <u>The Astrophysical Journal Letters</u>
   ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...932L...3M/abstract
