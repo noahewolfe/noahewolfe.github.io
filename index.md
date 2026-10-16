@@ -19,4 +19,4 @@ In my free time, I enjoy the outdoors and photography. I recently fused these in
 
 ## Selected Publications
 
-A full list of my publications is available in my [CV](/assets/cv.pdf){:target="_blank"}.
+For a full list of my publications, see my [CV](/assets/cv.pdf){:target="_blank"}, [ORCID](https://orcid.org/0000-0003-2540-3845){:target="_blank"}, or [ADS](https://ui.adsabs.harvard.edu/search/q=orcid%3A%220000-0003-2540-3845%22%20doctype%3A%28article%20OR%20eprint%29&sort=date%20desc%2C%20bibcode%20desc){:target="_blank"}.

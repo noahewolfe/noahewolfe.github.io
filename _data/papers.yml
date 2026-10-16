@@ -1,3 +1,18 @@
+- shortname: spinformation
+  selected: false
+  title: "Spinformation: do gravitational-wave events carry information beyond effective spins?"
+  doi: 10.48550/arXiv.2610.18973
+  bibcode: null
+  year: 2026
+  authors: Plunkett, C., Heinzel, J., Wolfe, N. E., Gerosa, D., Vitale, S.
+  authors_html: "Plunkett, C., Heinzel, J., <b>Wolfe, N. E.</b>, Gerosa, D., Vitale, S."
+  journal: arXiv e-prints
+  journal_html: null
+  ads_link: null
+  code_link: null
+  tags:
+  - black hole populations
+
 - shortname: spin-prior
   selected: true
   title: Binary-black hole spin population results may be driven by prior degeneracies
