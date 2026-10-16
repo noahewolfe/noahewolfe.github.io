@@ -1,19 +1,68 @@
-- shortname: spin-peak
-  title: No model-independent evidence for a peak in binary black hole spin (mis)alignments
-  doi: 10.48550/arXiv.2605.05300
-  bibcode: 2026arXiv260505300W
+- shortname: spin-prior
+  selected: true
+  title: Binary-black hole spin population results may be driven by prior degeneracies
+  doi: 10.48550/arXiv.2609.10753
+  bibcode: 2026arXiv260910753W
   year: 2026
-  authors: Wolfe, N. E., Vitale, S., Zevin, M.
-  authors_html: "<b>Wolfe, N. E.</b>, Vitale, S., Zevin, M."
-  journal: Submitted to The Astrophysical Journal Letters
+  authors: Wolfe, N. E., Hussain, A., Heinzel, J., Vitale, S.
+  authors_html: "<b>Wolfe, N. E.</b>, Hussain, A., Heinzel, J., Vitale, S."
+  journal: arXiv e-prints
   journal_html: null
-  ads_link: https://ui.adsabs.harvard.edu/abs/2026arXiv260505300W/abstract
+  ads_link: https://ui.adsabs.harvard.edu/abs/2026arXiv260910753W/abstract
   code_link: null
   tags:
   - black hole populations
   - astrostatistics
 
+- shortname: spin-peak
+  selected: true
+  title: No model-independent evidence for a peak in binary black hole spin (mis)alignments
+  doi: 10.3847/2041-8213/ae90ae
+  bibcode: 2026ApJ..1007L..45W
+  year: 2026
+  authors: Wolfe, N. E., Vitale, S., Zevin, M.
+  authors_html: "<b>Wolfe, N. E.</b>, Vitale, S., Zevin, M."
+  journal: The Astrophysical Journal Letters
+  journal_html: <u>The Astrophysical Journal Letters</u>
+  ads_link: https://ui.adsabs.harvard.edu/abs/2026ApJ..1007L..45W/abstract
+  code_link: null
+  tags:
+  - black hole populations
+  - astrostatistics
+
+- shortname: far-cuts
+  selected: true
+  title: Reducing systematic uncertainties in gravitational-wave population analyses by increasing the detection threshold
+  doi: 10.1103/15w1-n9jx
+  bibcode: 2026PhRvD.113j3025W
+  year: 2026
+  authors: Wolfe, N. E., Mould, M., Heinzel, J., Vitale, S.
+  authors_html: "<b>Wolfe, N. E.</b>, Mould, M., Heinzel, J., Vitale, S."
+  journal: Physical Review D
+  journal_html: Physical Review D
+  ads_link: https://ui.adsabs.harvard.edu/abs/2026PhRvD.113j3025W/abstract
+  code_link: null
+  tags:
+  - black hole populations
+  - astrostatistics
+
+- shortname: ppisn-inj 
+  selected: false
+  title: "Measurement prospects for the pair-instability mass cutoff with gravitational waves"
+  doi: 10.1103/sqy9-nnqq
+  bibcode: 2026PhRvD.113j3021M
+  year: 2026
+  authors: Mould, M., Heinzel, J., Alvarez-Lopez, S., Plunkett, C., Wolfe, N. E., Vitale, S.
+  authors_html: "Mould, M., Heinzel, J., &#193;lvarez-L&#243;pez, S., Plunkett, C., <b>Wolfe, N. E.</b>, Vitale, S."
+  journal: Physical Review D
+  journal_html: Physical Review D
+  ads_link: https://ui.adsabs.harvard.edu/abs/2026PhRvD.113j3021M/abstract
+  code_link: null
+  tags:
+  - black hole populations
+
 - shortname: neural-updates
+  selected: true
   title: Neural Bayesian updates to populations with growing gravitational-wave catalogs
   doi: 10.48550/arXiv.2602.20277
   bibcode: 2026arXiv260220277W
@@ -27,50 +76,8 @@
   tags:
   - black hole populations
 
-- shortname: ppisn-inj 
-  title: "Measurement prospects for the pair-instability mass cutoff with gravitational waves"
-  doi: 10.48550/arXiv.2602.11282
-  bibcode: 2026arXiv260211282M
-  year: 2026
-  authors: Mould, M., Heinzel, J., Alvarez-Lopez, S., Plunkett, C., Wolfe, N. E., Vitale, S.
-  authors_html: "Mould, M., Heinzel, J., &#193;lvarez-L&#243;pez, S., Plunkett, C., <b>Wolfe, N. E.</b>, Vitale, S."
-  journal: Submitted to Physical Review D
-  journal_html: null
-  ads_link: https://ui.adsabs.harvard.edu/abs/2026arXiv260211282M/abstract
-  code_link: null
-  tags:
-  - black hole populations
-
-- shortname: svi
-  title: Rapid inference and comparison of gravitational-wave population models with neural variational posteriors
-  doi: 10.1103/xk1z-fxnm
-  bibcode: 2025PhRvD.111l3049M
-  year: 2025
-  authors: Mould, M., Wolfe, N. E., Vitale, S.
-  authors_html: "Mould, M., <b>Wolfe, N. E.</b>, Vitale, S."
-  journal: Physical Review D
-  journal_html: null
-  ads_link: https://ui.adsabs.harvard.edu/abs/2025PhRvD.111l3049M/abstract
-  code_link: null
-  tags:
-  - black hole populations
-
-- shortname: far-cuts
-  title: "Studying the graviational-wave population without looking that FAR out"
-  doi: 10.48550/arXiv.2510.06220
-  bibcode: 2025arXiv251006220W
-  year: 2025
-  authors: Wolfe, N. E., Mould, M., Heinzel, J., Vitale, S.
-  authors_html: "<b>Wolfe, N. E.</b>, Mould, M., Heinzel, J., Vitale, S."
-  journal: Submitted to Physical Review D
-  journal_html: null
-  ads_link: https://ui.adsabs.harvard.edu/abs/2025arXiv251006220W/abstract
-  code_link: null
-  tags:
-  - black hole populations
-  - astrostatistics
-
 - shortname: pbh-star
+  selected: false
   title: Gravitational wave signals from primordial black holes orbiting solar-type stars
   doi: 10.1103/294z-nfj4
   bibcode: 2025PhRvD.112f3063D
@@ -84,7 +91,23 @@
   tags:
   - dark matter
 
+- shortname: svi
+  selected: false
+  title: Rapid inference and comparison of gravitational-wave population models with neural variational posteriors
+  doi: 10.1103/xk1z-fxnm
+  bibcode: 2025PhRvD.111l3049M
+  year: 2025
+  authors: Mould, M., Wolfe, N. E., Vitale, S.
+  authors_html: "Mould, M., <b>Wolfe, N. E.</b>, Vitale, S."
+  journal: Physical Review D
+  journal_html: null
+  ads_link: https://ui.adsabs.harvard.edu/abs/2025PhRvD.111l3049M/abstract
+  code_link: null
+  tags:
+  - black hole populations
+
 - shortname: ssm
+  selected: false
   title: "Too small to fail: characterizing sub-solar mass black hole mergers with gravitational waves"
   doi: 10.1088/1475-7516/2023/11/039
   bibcode: 2023JCAP...11..039W
@@ -100,6 +123,7 @@
   - astrostatistics
 
 - shortname: push-gw
+  selected: true
   title: Gravitational wave eigenfrequencies from neutrino-driven core-collapse supernovae
   doi: 10.3847/1538-4357/ace693
   bibcode: 2023ApJ...954..161W
@@ -115,6 +139,7 @@
   - numerical simulations
 
 - shortname: tgr-hybrid-sampling
+  selected: true
   title: Accelerating tests of general relativity with gravitational-wave signals
     using hybrid sampling
   doi: 10.1103/PhysRevD.107.104056
@@ -130,24 +155,8 @@
   - tests of general relativity
   - astrostatistics
 
-- shortname: push-eos
-  title: PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V.
-    Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields,
-    and Compact Remnants
-  doi: 10.3847/1538-4357/ac4d20
-  bibcode: 2022ApJ...929...43G
-  year: 2022
-  authors: "Ghosh, S., Wolfe, N., Fr\xF6hlich, C."
-  authors_html: "Ghosh, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C."
-  journal: The Astrophysical Journal
-  journal_html: The Astrophysical Journal
-  ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract
-  code_link: null
-  tags:
-  - core-collapse supernovae
-  - numerical simulations
-
 - shortname: push-sam
+  selected: false
   title: A New Constraint on the Nuclear Equation of State from Statistical Distributions
     of Compact Remnants of Supernovae
   doi: 10.3847/2041-8213/ac7054
@@ -166,7 +175,26 @@
   - numerical simulations
   - nuclear equation of state
 
+- shortname: push-eos
+  selected: false
+  title: PUSHing Core-collapse Supernovae to Explosions in Spherical Symmetry. V.
+    Equation of State Dependency of Explosion Properties, Nucleosynthesis Yields,
+    and Compact Remnants
+  doi: 10.3847/1538-4357/ac4d20
+  bibcode: 2022ApJ...929...43G
+  year: 2022
+  authors: "Ghosh, S., Wolfe, N., Fr\xF6hlich, C."
+  authors_html: "Ghosh, S., <b>Wolfe, N.</b>, Fr\xF6hlich, C."
+  journal: The Astrophysical Journal
+  journal_html: The Astrophysical Journal
+  ads_link: https://ui.adsabs.harvard.edu/abs/2022ApJ...929...43G/abstract
+  code_link: null
+  tags:
+  - core-collapse supernovae
+  - numerical simulations
+
 - shortname: push-lc
+  selected: false
   title: 'Core-collapse Supernovae: From Neutrino-driven 1D Explosions to Light Curves
     and Spectra'
   doi: 10.3847/1538-4357/ac0dc5

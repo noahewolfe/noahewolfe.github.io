@@ -1,5 +1,5 @@
 <ul>
-    {% for paper in site.data.papers %}
+    {% for paper in site.data.papers %}{% if paper.selected %}
         <li>
             <strong>{{ paper.title }}</strong> 
             <br>
@@ -30,5 +30,5 @@
                 [<a href="{{ paper.code_link }}" target="_blank">Code</a>]
             {% endif %}
         </li>
-    {% endfor %}
+    {% endif %}{% endfor %}
 </ul>

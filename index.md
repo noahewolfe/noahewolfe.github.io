@@ -13,8 +13,10 @@ I earned Bachelors of Science degrees in Physics and Mathematics
 at North Carolina State University, where I studied core-collapse supernovae 
 under [Professor Carla Fröhlich](http://astro.physics.ncsu.edu/~cfrohli/){:target="_blank"}.
 
-**If you'd like to learn more about me, feel free to read my [CV](/assets/cv.pdf){:target="_blank"}** (Last updated 20 July 2026)
+**If you'd like to learn more about me, feel free to read my [CV](/assets/cv.pdf){:target="_blank"}** (Last updated 16 October 2026)
 
 In my free time, I enjoy the outdoors and photography. I recently fused these interests as organizer of MIT's third Geophysical Plasma Observation Expedition to Fairbanks, Alaska to observe the aurora. Some of my photos have even landed in [MIT News](https://news.mit.edu/2026/mit-students-study-plasma-physics-beneath-alaska-aurora-0522){:target="_blank"}.
 
-## Publications
+## Selected Publications
+
+A full list of my publications is available in my [CV](/assets/cv.pdf){:target="_blank"}.
